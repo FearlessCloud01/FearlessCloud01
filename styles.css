@@ -48,6 +48,11 @@ p {
     font-family: Arial, sans-serif;
 }
 
+.toggle-label {
+    margin-left: 10px;
+    font-size: 34px
+}
+
 .switch {
     position: relative;
     display: inline-block;
