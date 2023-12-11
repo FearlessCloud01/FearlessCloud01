@@ -1,27 +1,24 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f6f3ee;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #020202;
+    color: #ffffff;
     margin: 0;
     padding: 0;
+    transition: background-color 0.5s ease;
 }
 
 .container {
     max-width: 800px;
     margin: auto;
     padding: 40px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 3em;
     margin-bottom: 20px;
-    color: #754c29;
-}
-
-h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-    color: #5d3318;
+    color: #37ff00;
+    text-transform: uppercase;
 }
 
 p {
@@ -30,22 +27,13 @@ p {
     margin-bottom: 20px;
 }
 
-.content {
-    margin-bottom: 30px;
-}
+/* Other styles */
 
-.contact {
-    border-top: 2px solid #bfbfbf;
-    padding-top: 20px;
-}
-
-.contact h2 {
-    margin-top: 20px;
-}
 /* Dark mode styles */
 .dark-mode {
-    background-color: #111;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 /* Toggle button styles */
@@ -57,6 +45,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-family: Arial, sans-serif;
 }
 
 .switch {
@@ -97,7 +86,7 @@ p {
 }
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #37ff00;
 }
 
 input:checked + .slider:before {
