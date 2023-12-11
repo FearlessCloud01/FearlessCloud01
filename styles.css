@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #020202;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #020202;
     margin: 0;
     padding: 0;
     transition: background-color 0.5s ease;
@@ -31,7 +31,7 @@ p {
 
 /* Dark mode styles */
 .dark-mode {
-    background-color: #000000;
+    background-color: #020202;
     color: #ffffff;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
